@@ -1,0 +1,25 @@
+Esta rede (verifique artigo FingerNet.pdf) é capaz de detectar a
+impressão digital em uma imagem latente, gerando uma máscara, e
+extrair as minúcias dela. A rede foi desenvolvida na versão antiga do
+TensorFlow, usando python 2.7, mas eu atualizei o código para que
+possam avaliar treino, teste, e execução (deploy) usando o script
+train_test_deploy.py. As tarefas envolvidas nesta parte do projeto
+são:
+
+1. Separação deste script em três scripts, como os usados na parte 01
+   do projeto, para treino, teste, e execução.
+
+2. Atualização do código dos scripts acima para o pytorch. O modelo
+   fornecido precisa ser convertido para o pytorch.
+
+3. Separação de partes da rede: segmentação da impressão na imagem
+   latente e a extração de suas minúcias.
+
+4. Teste o modelo do item 1 (ou 2) nas imagens das pastas latent e
+   reference, em datasets.
+
+5. Matching da impressão extraída de uma imagem latente usando o
+   script do item 3 com partes da imagem da impressão completa
+   (referencia) usando um modelo baseado no modelo da parte 01 do
+   projeto. A tarefa requer adaptação deste modelo.
+

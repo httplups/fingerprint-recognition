@@ -1,0 +1,15 @@
+Esta pasta contém um modelo para verificar se duas impressões digitais
+são do mesmo indivíduo ou não. As tarefas são
+
+1. Tente melhorar o modelo, podendo substituir a extração de
+características dele pelo backbone de uma rede pretreinada na
+ImageNet, como a VGG-16 e/ou alterar sua arquitetura.
+
+2. Avalie ele nas imagens de diferentes bases em datasets.
+
+3. Altere a forma de avaliação do script de teste para que o modelo
+seja avaliado com rank-n, para n = 1, 100, e 1000.
+
+4. Treine o modelo por partes da imagem, com diferentes rotações
+dessas partes, para ser usado no item 5 das tarefas da parte 02 do
+projeto.
